@@ -10,6 +10,9 @@
           "backdrop-filter"
         ]
       }
-    ]
+    ],
+    "no-inline-styles": "off",
+    "button-type": "off",
+    "disown-opener": "off"
   }
 }

@@ -4,275 +4,279 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+    <link rel="shortcut icon" type="image/png" href="img/d.b_prev_ui.png" />
 
     <link
       href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Bankist | When Banking meets Minimalist</title>
+    <title>David Bourak Site</title>
     <script defer src="script.js"></script>
   </head>
   <body>
     <header class="header">
       <nav class="nav">
         <img
-          src="img/logo.png"
-          alt="Bankist logo"
+          src="img/d.b_prev_ui.png"
+          alt="logo"
           class="nav__logo"
           id="logo"
+          style="width: 150px; height: auto"
         />
         <ul class="nav__links">
           <li class="nav__item">
-            <a class="nav__link" href="#section--1">Features</a>
+            <a class="nav__link" href="#section--1">About me</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link" href="#section--2">Operations</a>
+            <a class="nav__link" href="#section--2">Project</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link" href="#section--3">Testimonials</a>
+            <a class="nav__link" href="#section--3">Courses</a>
           </li>
           <li class="nav__item">
             <a class="nav__link nav__link--btn btn--show-modal" href="#"
-              >Open account</a
+              >Contact me</a
             >
+          </li>
+          <li class="nav__item">
+            <img
+            src="img/david-fotor-20231221105939.png"
+            alt="logo"
+            class="nav__logo2"
+            id="logo"
+            style="width: 110px; height: auto"
+          />
           </li>
         </ul>
       </nav>
 
       <div class="header__title">
         <h1>
-          When
+          Welcome to my
           <!-- Green highlight effect -->
-          <span class="highlight">banking</span>
-          meets<br />
-          <span class="highlight">minimalist</span>
+          <span class="highlight">website</span>
+          i am<br />
+          <span class="highlight">David Bourak</span>
         </h1>
-        <h4>A simpler banking experience for a simpler life.</h4>
+        <h4>Below, you can see some of my projects as well as my diplomas.</h4>
         <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
-        <img
-          src="img/hero.png"
-          class="header__img"
-          alt="Minimalist bank items"
-        />
       </div>
     </header>
 
     <section class="section" id="section--1">
       <div class="section__title">
-        <h2 class="section__description">Features</h2>
+        <h2 class="section__description">About me</h2>
         <h3 class="section__header">
-          Everything you need in a modern bank and more.
+
         </h3>
+        <div class="operations">
+          <div class="operations__tab-container">
+            <button
+              class="btn operations__tab operations__tab--1 operations__tab--active"
+              data-tab="1"
+            >
+              <span>01</span>Bachelor
+            </button>
+            <button class="btn operations__tab operations__tab--2" data-tab="2">
+              <span>02</span>Army
+            </button>
+            <button class="btn operations__tab operations__tab--3" data-tab="3">
+              <span>03</span>Higher education
+            </button>
+          </div>
+          <div
+            class="operations__content operations__content--1 operations__content--active"
+          >
+            <div class="operations__icon operations__icon--1"></div>
+            <h5 class="operations__header">
+              Scientific High School Diploma
+            </h5>
+            <p>
+              I obtained my Scientific Baccalaureate at the French high school in Jerusalem, Havat Hanoar Atsioni, in 2014.
+            </p>
+          </div>
+  
+          <div class="operations__content operations__content--2">
+            <div class="operations__icon operations__icon--2"></div>
+            <h5 class="operations__header">
+              Military service in the Israel Defense Forces (IDF)
+            </h5>
+            <p>
+              In 2015, at the age of 18, I enlisted in the Israel Defense Forces, serving in the 401st Shirion unit to defend my country. More than just a source of pride, it was the most enriching experience of my life.
+            </p>
+          </div>
+          <div class="operations__content operations__content--3">
+            <div class="operations__icon operations__icon--3"></div>
+            <h5 class="operations__header">
+              BSc in Computer Engineering
+            </h5>
+            <p>
+              In 2018, I began my extensive studies in computer engineering, which enabled me to acquire a range of skills in mobile and website development, as well as knowledge in various areas such as security, networking, and more. After several successful projects, it was five years later that I graduated.
+            </p>
+          </div>
+        </div>
       </div>
 
-      <div class="features">
-        <img
-          src="img/digital-lazy.jpg"
-          data-src="img/digital.jpg"
-          alt="Computer"
-          class="features__img lazy-img"
-        />
-        <div class="features__feature">
-          <div class="features__icon">
-            <svg>
-              <use xlink:href="img/icons.svg#icon-monitor"></use>
-            </svg>
-          </div>
-          <h5 class="features__header">100% digital bank</h5>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde alias
-            sint quos? Accusantium a fugiat porro reiciendis saepe quibusdam
-            debitis ducimus.
-          </p>
-        </div>
 
-        <div class="features__feature">
-          <div class="features__icon">
-            <svg>
-              <use xlink:href="img/icons.svg#icon-trending-up"></use>
-            </svg>
-          </div>
-          <h5 class="features__header">Watch your money grow</h5>
-          <p>
-            Nesciunt quos autem dolorum voluptates cum dolores dicta fuga
-            inventore ab? Nulla incidunt eius numquam sequi iste pariatur
-            quibusdam!
-          </p>
-        </div>
-        <img
-          src="img/grow-lazy.jpg"
-          data-src="img/grow.jpg"
-          alt="Plant"
-          class="features__img lazy-img"
-        />
-
-        <img
-          src="img/card-lazy.jpg"
-          data-src="img/card.jpg"
-          alt="Credit card"
-          class="features__img lazy-img"
-        />
-        <div class="features__feature">
-          <div class="features__icon">
-            <svg>
-              <use xlink:href="img/icons.svg#icon-credit-card"></use>
-            </svg>
-          </div>
-          <h5 class="features__header">Free debit card included</h5>
-          <p>
-            Quasi, fugit in cumque cupiditate reprehenderit debitis animi enim
-            eveniet consequatur odit quam quos possimus assumenda dicta fuga
-            inventore ab.
-          </p>
-        </div>
+      
+       
       </div>
     </section>
 
     <section class="section" id="section--2">
       <div class="section__title">
-        <h2 class="section__description">Operations</h2>
+        <h2 class="section__description">Projects</h2>
         <h3 class="section__header">
-          Everything as simple as possible, but no simpler.
+          Here are some of my recents projects!
         </h3>
-      </div>
+        <style>
+          .space-container {
+            margin-bottom: 60px; /* Ajoutez l'espacement désiré */
+          }
+        </style>
+        <h5 class="operations__header">
+          1.Sportner(Flutter): An amazing application that facilitates the search for a sports partner.
+        </h5>
+        <video class = "space-container" width="840" height="400" controls>
+          <source src="/img/Sportner.mp4" type="video/mp4">
+          Votre navigateur ne prend pas en charge la balise vidéo.
+      </video>
 
-      <div class="operations">
-        <div class="operations__tab-container">
-          <button
-            class="btn operations__tab operations__tab--1 operations__tab--active"
-            data-tab="1"
-          >
-            <span>01</span>Instant Transfers
-          </button>
-          <button class="btn operations__tab operations__tab--2" data-tab="2">
-            <span>02</span>Instant Loans
-          </button>
-          <button class="btn operations__tab operations__tab--3" data-tab="3">
-            <span>03</span>Instant Closing
-          </button>
-        </div>
-        <div
-          class="operations__content operations__content--1 operations__content--active"
-        >
-          <div class="operations__icon operations__icon--1">
-            <svg>
-              <use xlink:href="img/icons.svg#icon-upload"></use>
-            </svg>
-          </div>
-          <h5 class="operations__header">
-            Tranfser money to anyone, instantly! No fees, no BS.
-          </h5>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
-        </div>
+      <h5 class="operations__header">
+        2.Dooble(Java) : An online or solo card game that allows players to find the differences between symbols.
+      </h5>
+      <video class="space-container" width="840" height="400" controls>
+        <source src="/img/dobble-video.mp4" type="video/mp4">
+        Votre navigateur ne prend pas en charge la balise vidéo.
+    </video>
 
-        <div class="operations__content operations__content--2">
-          <div class="operations__icon operations__icon--2">
-            <svg>
-              <use xlink:href="img/icons.svg#icon-home"></use>
-            </svg>
-          </div>
-          <h5 class="operations__header">
-            Buy a home or make your dreams come true, with instant loans.
-          </h5>
-          <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
-          </p>
-        </div>
-        <div class="operations__content operations__content--3">
-          <div class="operations__icon operations__icon--3">
-            <svg>
-              <use xlink:href="img/icons.svg#icon-user-x"></use>
-            </svg>
-          </div>
-          <h5 class="operations__header">
-            No longer need your account? No problem! Close it instantly.
-          </h5>
-          <p>
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.
-          </p>
-        </div>
-      </div>
+
+    <h5 class="operations__header">
+      3.Natours(JS/Node.js/Mongo...) : A website that utilizes APIs, maps, databases, etc., allowing users to view available tours for enjoying their holidays.
+    <h6>To connect use mail: laura@example.com , password:test1234
+    <a
+          href="https://natours-david.onrender.com/"
+          target="_blank"
+          style="color: black; font-size: 27px"
+          >Click her for visit Natours</a
+        ></h6>
+      <img class = "space-container"
+    src="img/natours.png"
+    alt="logo"
+    class="nav__logo"
+    id="logo"
+    style="width: 840px; height: 400"
+  />
+  
+
+  <h5 class="operations__header">
+    4.Forkify(JavaScript) : A website that allows users to search for cooking recipes, create their own, and save them as favorites
+  <h6><a
+        href="https://david-bourak-forkify.netlify.app/"
+        target="_blank"
+        style="color: black; font-size: 27px"
+        >Click her for visit Forkify</a
+      ></h6>
+    <img class = "space-container"
+  src="img/forkify.png"
+  alt="logo"
+  class="nav__logo"
+  id="logo"
+  style="width: 840px; height: 400"
+/>
+
+
+
+<h5 class="operations__header">
+  5.Bankist : A website simulating an online bank that allows transfers between clients and viewing operations.
+<h6>To connect use id: db , password:1111 if you want to test operations between users please use the second users id:js , password:2222
+<a
+      href="https://app-bankist-david.netlify.app"
+      target="_blank"
+      style="color: black; font-size: 27px"
+      >Click her for visit Bankist</a
+    ></h6>
+  <img class = "space-container"
+src="img/bankist.png"
+alt="logo"
+class="nav__logo"
+id="logo"
+style="width: 840px; height: 400"
+/>
+
+
+
+<h5 class="operations__header">
+  6.Pig Game : A game between two players with the goal of reaching 100 points first by rolling a die and accumulating scores to secure before rolling a 1; otherwise, the turn passes to the opponent.
+<h6><a
+      href="https://bright-biscuit-472b6e.netlify.app/"
+      target="_blank"
+      style="color: black; font-size: 27px"
+      >Click her for play</a
+    ></h6>
+  <img class = "space-container"
+src="img/pig-game.png"
+alt="logo"
+class="nav__logo"
+id="logo"
+style="width: 840px; height: 400"
+/>
+
+
+
     </section>
 
     <section class="section" id="section--3">
       <div class="section__title section__title--testimonials">
-        <h2 class="section__description">Not sure yet?</h2>
+        <h2 class="section__description">Certificats</h2>
         <h3 class="section__header">
-          Millions of Bankists are already making their lifes simpler.
+          These are part of my certificate courses
         </h3>
       </div>
 
       <div class="slider">
         <div class="slide slide--1">
           <div class="testimonial">
-            <h5 class="testimonial__header">Best financial decision ever!</h5>
-            <blockquote class="testimonial__text">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Accusantium quas quisquam non? Quas voluptate nulla minima
-              deleniti optio ullam nesciunt, numquam corporis et asperiores
-              laboriosam sunt, praesentium suscipit blanditiis. Necessitatibus
-              id alias reiciendis, perferendis facere pariatur dolore veniam
-              autem esse non voluptatem saepe provident nihil molestiae.
-            </blockquote>
-            <address class="testimonial__author">
-              <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
-              <h6 class="testimonial__name">Aarav Lynn</h6>
-              <p class="testimonial__location">San Francisco, USA</p>
-            </address>
+            <h5 class="testimonial__header">JavaScript:</h5>
+            <img
+        src="img/Certificat-JS-Udemy.jpg"
+        alt="JavaScript"
+        class="footer__logo"
+        style="width: 500px; height: auto"/> 
           </div>
         </div>
 
         <div class="slide slide--2">
           <div class="testimonial">
-            <h5 class="testimonial__header">
-              The last step to becoming a complete minimalist
-            </h5>
-            <blockquote class="testimonial__text">
-              Quisquam itaque deserunt ullam, quia ea repellendus provident,
-              ducimus neque ipsam modi voluptatibus doloremque, corrupti
-              laborum. Incidunt numquam perferendis veritatis neque repellendus.
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo
-              deserunt exercitationem deleniti.
-            </blockquote>
-            <address class="testimonial__author">
-              <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
-              <h6 class="testimonial__name">Miyah Miles</h6>
-              <p class="testimonial__location">London, UK</p>
-            </address>
+            <h5 class="testimonial__header">HTML/CSS:</h5>
+            <img
+        src="img/html-css.jpg"
+        alt="html-css"
+        class="footer__logo"
+        style="width: 500px; height: auto"/> 
           </div>
         </div>
 
         <div class="slide slide--3">
           <div class="testimonial">
-            <h5 class="testimonial__header">
-              Finally free from old-school banks
-            </h5>
-            <blockquote class="testimonial__text">
-              Debitis, nihil sit minus suscipit magni aperiam vel tenetur
-              incidunt commodi architecto numquam omnis nulla autem,
-              necessitatibus blanditiis modi similique quidem. Odio aliquam
-              culpa dicta beatae quod maiores ipsa minus consequatur error sunt,
-              deleniti saepe aliquid quos inventore sequi. Necessitatibus id
-              alias reiciendis, perferendis facere.
-            </blockquote>
-            <address class="testimonial__author">
-              <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
-              <h6 class="testimonial__name">Francisco Gomes</h6>
-              <p class="testimonial__location">Lisbon, Portugal</p>
-            </address>
+            <h5 class="testimonial__header">Node.js/Mongo/Express...:</h5>
+            <img
+        src="img/Node.js-Express-Mongo.jpg"
+        alt="Mongo"
+        class="footer__logo"
+        style="width: 500px; height: auto"/> 
+          </div>
+        </div>
+
+        <div class="slide slide--4">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Java:</h5>
+            <img
+        src="img/Java.jpg"
+        alt="java"
+        class="footer__logo"
+        style="width: 500px; height: auto"/> 
           </div>
         </div>
         <button class="slider__btn slider__btn--left">&larr;</button>
@@ -283,39 +287,19 @@
 
     <section class="section section--sign-up">
       <div class="section__title">
-        <h3 class="section__header">
-          The best day to join Bankist was one year ago. The second best is
-          today!
-        </h3>
+        <h3 class="section__header">The best day to hire me is today!</h3>
       </div>
-      <button class="btn btn--show-modal">Open your free account today!</button>
+      <button class="btn btn--show-modal">Contact me!</button>
     </section>
 
     <footer class="footer">
-      <ul class="footer__nav">
-        <li class="footer__item">
-          <a class="footer__link" href="#">About</a>
-        </li>
-        <li class="footer__item">
-          <a class="footer__link" href="#">Pricing</a>
-        </li>
-        <li class="footer__item">
-          <a class="footer__link" href="#">Terms of Use</a>
-        </li>
-        <li class="footer__item">
-          <a class="footer__link" href="#">Privacy Policy</a>
-        </li>
-        <li class="footer__item">
-          <a class="footer__link" href="#">Careers</a>
-        </li>
-        <li class="footer__item">
-          <a class="footer__link" href="#">Blog</a>
-        </li>
-        <li class="footer__item">
-          <a class="footer__link" href="#">Contact Us</a>
-        </li>
-      </ul>
-      <img src="img/icon.png" alt="Logo" class="footer__logo" />
+      <ul class="footer__nav"></ul>
+      <img
+        src="img/d.b_prev_ui.png"
+        alt="Logo"
+        class="footer__logo"
+        style="width: 150px; height: auto"
+      />
       <p class="footer__copyright">
         &copy; Copyright by
         <a
@@ -330,16 +314,21 @@
     <div class="modal hidden">
       <button class="btn--close-modal">&times;</button>
       <h2 class="modal__header">
-        Open your bank account <br />
+        Contact me<br />
         in just <span class="highlight">5 minutes</span>
       </h2>
       <form class="modal__form">
-        <label>First Name</label>
-        <input type="text" />
-        <label>Last Name</label>
-        <input type="text" />
-        <label>Email Address</label>
-        <input type="email" />
+        <label>LinkedIn:</label>
+        <a
+          href="https://www.linkedin.com/in/david-bourak-51baa7281/"
+          target="_blank"
+          style="color: #0077b5; font-size: 16px"
+          >LinkedIn</a
+        >
+        <label>Email Address:</label>
+        <label>davidbourak22@gmail.com</label>
+        <label>Phone:</label>
+        <label>0526485611</label>
         <button class="btn">Next step &rarr;</button>
       </form>
     </div>

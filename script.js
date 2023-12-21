@@ -47,12 +47,12 @@ est mieu car si on supprime un truc comme un bouton alors ca se met a jour direc
 
 ///////********************//////
 ///////Creer et inserver des elements ://///
-const message = document.createElement('div');
-message.classList.add('cookie-message');
-message.innerHTML =
-  'We use cookies for impoved. <button class="btn btn--close--cookie">Got it!!</button>';
+// const message = document.createElement('div');
+// message.classList.add('cookie-message');
+// message.innerHTML =
+//   'We use cookies for impoved. <button class="btn btn--close--cookie">Got it!!</button>';
 
-header.prepend(message); //le met tout en haut du header
+// header.prepend(message); //le met tout en haut du header
 //header.append(message); //le met tout en bas du header
 //header.append(message.cloneNode(true)); // cela va cloner le premier et on aura en haut et en bas
 //header.before(message);//va mettre le message juste avant le header (en dehors de header)
@@ -60,20 +60,20 @@ header.prepend(message); //le met tout en haut du header
 
 ////**********************///////
 //Delete elements :///quand on va clicker sur got it du message il va s enlever
-document
-  .querySelector('.btn--close--cookie')
-  .addEventListener('click', function () {
-    message.remove();
-  });
+// document
+//   .querySelector('.btn--close--cookie')
+//   .addEventListener('click', function () {
+//     message.remove();
+//   });
 
 //************* ///
 //Styles//
 //message.style.backgroundColor = 'yellow';
-message.style.width = '120%';
-//si on a l epaisseur du message qui est de 43px et qu on veut l aggrandir alors on fera:
-message.style.height =
-  Number.parseFloat(getComputedStyle(message).height, 10) + 40 + 'px';
-// en gros on parse le 43px en number en base 10 decimal et on ajoute les 40px!
+// message.style.width = '120%';
+// //si on a l epaisseur du message qui est de 43px et qu on veut l aggrandir alors on fera:
+// message.style.height =
+//   Number.parseFloat(getComputedStyle(message).height, 10) + 40 + 'px';
+// // en gros on parse le 43px en number en base 10 decimal et on ajoute les 40px!
 
 // si on veut changer une couleur qui est dans root de notre css on fait ca:
 //document.documentElement.style.setProperty('--color-primary', 'orangered');
